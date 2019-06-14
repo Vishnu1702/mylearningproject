@@ -7,10 +7,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ProvideApplicationPartFactoryAttribute("Microsoft.AspNetCore.Mvc.ApplicationParts.CompiledRazorAssemblyApplicationPartFac" +
+"tory, Microsoft.AspNetCore.Mvc.Razor")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaadiSweets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyProductAttribute("MaadiSweets")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("MaadiSweets")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MaadiSweets")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MaadiSweets.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

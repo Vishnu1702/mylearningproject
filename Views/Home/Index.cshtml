@@ -1,0 +1,22 @@
+@model MAADISWEETS.HomeViewModel.HomeViewModel;
+    
+
+    @{
+        Layout = "_Layout";
+    }
+    <h2>@Model.Title</h2>
+
+    @foreach (var sweet in Model.Sweets)
+    {
+        <div class="col-sm-4 col-lg-4 col-md-4">
+
+            <div class ="thumbnail">
+                <img src=" ">
+                <div class="caption">
+                    <h3>@sweet.SweetId</h3>
+                    <h3>@sweet.SweetName</h3>
+        </div>
+            </div>
+        </div>
+        
+    }
